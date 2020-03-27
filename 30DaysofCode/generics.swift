@@ -1,3 +1,4 @@
+
 import Foundation
 
 struct Printer<T> {
@@ -6,11 +7,11 @@ struct Printer<T> {
 	*    Print each element of the generic array on a new line. Do not return anything.
 	*    @param A generic array
 	**/
-	
+
 	func printArray<Int>(array: [Int]) {
     for a in array{
         print(a)
     }
     }
-    
+
 }

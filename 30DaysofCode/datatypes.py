@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 var_int = int(input())
 var_double = float(input())
 var_str = input()

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 arr = []
 
 for _ in range(6):
