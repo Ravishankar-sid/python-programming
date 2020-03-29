@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-"""Simple Linear Regression Model
 """
-
+Simple Linear Regression Model
+"""
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
 # Importing the dataset
-data = pd.read_csv("Salary_Data.csv")
+data = pd.read_csv("../data/Salary_Data.csv")
 data_x = data.iloc[:, :-1].values
 data_y = data.iloc[:, 1].values
 
